@@ -25,7 +25,7 @@ h1{
     color: white;
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
-    padding: 50px 40px 60px 10px;
+    padding: 50px 40px 20px 10px;
     font: size 1500px;
 }
 h2{
@@ -40,6 +40,17 @@ p{
     font-weight: bolder;
 
 }
+li{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
 .col-md-9{
    text-align: center;
+}
+.card-footer{
+    text-align: center;
+}
+.about-us{
+    color: black;
 }
