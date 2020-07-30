@@ -1,0 +1,45 @@
+.card-title{
+    background-image: url('/images/p10.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+   
+    float: right;
+    padding-top: 3%;
+    padding-right: 2%;
+}
+a{
+    color: white;
+    padding-right: 25px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    font-size: large;
+}
+a :hover{
+    color: green;
+    
+}
+h1{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    padding: 50px 40px 60px 10px;
+    font: size 1500px;
+}
+h2{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    
+}
+p{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+
+}
+.col-md-9{
+   text-align: center;
+}
