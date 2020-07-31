@@ -12,6 +12,10 @@
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
 }
+.header li{
+    padding-left: 20%;
+    color: white;
+}
 .nav{
     padding-left: 50%;
     float:none;
@@ -51,7 +55,10 @@ li{
    padding-left: 60px;
 }
 .col-md-4{
-    border: 2px solid black;
+    border-width: thin;
+}
+.col-sm img{
+    border-radius: 50%;
 }
 .card-footer{
     text-align: center;
@@ -65,26 +72,26 @@ li{
 }
 .about-us p{
     color: black;
-    font-weight: lighter;
+    font-weight: normal;
 }
 .services{
     
     background-color: lavender;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    height: 100vh;
-    
+    height: 110vh;
     
 }
 .services p{
+    padding: 0px 50px 10px 50px;
     color: black;
-    font-weight: lighter;
+    font-weight: bold;
 }
 .contact-us{
     background-color: lavender;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    height: 20vh;
+    height: 30vh;
     
 }
 .contact-us p{
@@ -97,3 +104,6 @@ h2{
 span{
     color: green;
 }
+hr { 
+    border-color: black; 
+} 
