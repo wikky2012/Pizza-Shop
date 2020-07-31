@@ -21,15 +21,15 @@
     <div class="testbox">
       <h1>Registration</h1>
     
-      <form action="/">
+      <form id="regist">
           <hr>
       <hr>
       <label id="icon" for="name"><i class="icon-envelope "></i></label>
-      <input type="text" name="name" id="name" placeholder="Email" required/>
+      <input type="email" name="name" id="email" placeholder="Email" required/>
       <label id="icon" for="name"><i class="icon-user"></i></label>
       <input type="text" name="name" id="name" placeholder="Name" required/>
       <label id="icon" for="name"><i class="icon-shield"></i></label>
-      <input type="password" name="name" id="name" placeholder="Password" required/>
+      <input type="password" name="name" id="password" placeholder="Password" required/>
       <div class="gender">
         <input type="radio" value="None" id="male" name="gender" checked/>
         <label for="male" class="radio" chec>Male</label>
@@ -37,9 +37,13 @@
         <label for="female" class="radio">Female</label>
        </div> 
        <p>By clicking Register, you agree on our <a href="#">terms and condition</a>.</p>
-       <a href="order.html" class="button">Register</a>
+       <a href="order.html">
+         <input type="submit" class="btn btn-primary" Register/>
+        </a>
       </form>
     </div>
+    <script src="js/jquery-migrate-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    
