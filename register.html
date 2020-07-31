@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Register</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">  
+</head>
+  <body>
+    
+    <div class="testbox">
+      <h1>Registration</h1>
+    
+      <form action="/">
+          <hr>
+        <div class="accounttype">
+          <input type="radio" value="None" id="radioOne" name="account" checked/>
+          <label for="radioOne" class="radio" chec>Personal</label>
+          <input type="radio" value="None" id="radioTwo" name="account" />
+          <label for="radioTwo" class="radio">Company</label>
+        </div>
+      <hr>
+      <label id="icon" for="name"><i class="icon-envelope "></i></label>
+      <input type="text" name="name" id="name" placeholder="Email" required/>
+      <label id="icon" for="name"><i class="icon-user"></i></label>
+      <input type="text" name="name" id="name" placeholder="Name" required/>
+      <label id="icon" for="name"><i class="icon-shield"></i></label>
+      <input type="password" name="name" id="name" placeholder="Password" required/>
+      <div class="gender">
+        <input type="radio" value="None" id="male" name="gender" checked/>
+        <label for="male" class="radio" chec>Male</label>
+        <input type="radio" value="None" id="female" name="gender" />
+        <label for="female" class="radio">Female</label>
+       </div> 
+       <p>By clicking Register, you agree on our <a href="#">terms and condition</a>.</p>
+       <a href="#" class="button">Register</a>
+      </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+  </body>
+</html>

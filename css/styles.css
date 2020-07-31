@@ -1,12 +1,17 @@
-.card-title{
-    background-image: url('/images/p10.jpg');
+.header{
+    background-image: url('/images/bg.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.header p{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
 .nav{
-   
-    float: right;
+    padding-left: 50%;
+    float:none;
     padding-top: 3%;
     padding-right: 2%;
 }
@@ -26,7 +31,7 @@ h1{
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
     padding: 50px 40px 20px 10px;
-    font: size 1500px;
+    
 }
 h2{
     color: white;
@@ -34,23 +39,48 @@ h2{
     font-weight: bolder;
     
 }
-p{
-    color: white;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bolder;
-
-}
 li{
     color: white;
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
 }
 .col-md-9{
-   text-align: center;
+   padding-left: 60px;
 }
 .card-footer{
     text-align: center;
 }
 .about-us{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    height: 80vh;
+   
+}
+.about-us p{
     color: black;
+    font-weight: lighter;
+}
+.about-us img{
+    
+}
+.services{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    height: 60vh;
+    
+    
+}
+.services p{
+    color: black;
+    font-weight: lighter;
+}
+.contact-us{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    height: 60vh;
+    
+}
+.contact-us p{
+    color: black;
+    font-weight: lighter;
 }
