@@ -43,12 +43,15 @@ h2{
     
 }
 li{
-    color: white;
+    color: green;
     font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
 }
 .col-md-9{
    padding-left: 60px;
+}
+.col-md-4{
+    border: 2px solid black;
 }
 .card-footer{
     text-align: center;
@@ -64,14 +67,12 @@ li{
     color: black;
     font-weight: lighter;
 }
-.about-us img{
-    
-}
 .services{
+    
     background-color: lavender;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    height: 40vh;
+    height: 100vh;
     
     
 }
@@ -89,4 +90,10 @@ li{
 .contact-us p{
     color: black;
     font-weight: lighter;
+}
+h2{
+    color: rgb(59, 146, 146);
+}
+span{
+    color: green;
 }
