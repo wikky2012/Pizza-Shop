@@ -37,7 +37,7 @@ function calculate(){
     if(inputSize=="small" && typeCrust=="crispy"  && toppings=="have" && delivers=="deliver"){
      var  result = crispy[0] + topping + delivery[0];
      
-     $("#output").text("Your total Expense is:" + result);
+     $("#output").text("Your total Expense is: Ksh. " + result);
     } 
     else{
         alert("Didn't work");
