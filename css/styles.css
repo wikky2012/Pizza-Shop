@@ -71,6 +71,7 @@ li{
    
 }
 .about-us p{
+    padding: 0px 50px 10px 50px;
     color: black;
     font-weight: normal;
 }
@@ -85,7 +86,13 @@ li{
 .services p{
     padding: 0px 50px 10px 50px;
     color: black;
-    font-weight: bold;
+    font-weight: lighter;
+}
+.services b{
+    color: red;
+}
+b{
+    font-weight: bolder;
 }
 .contact-us{
     background-color: lavender;
@@ -102,7 +109,7 @@ h2{
     color: rgb(59, 146, 146);
 }
 span{
-    color: green;
+    color:green;
 }
 hr { 
     border-color: black; 
