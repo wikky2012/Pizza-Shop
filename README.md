@@ -10,7 +10,7 @@
 This project is a web application for Wikky Pizza Shop. It shows the types of Pizza that we sell and how you can make order. 
 
 ## Screenshot
-<img src=https://github.com/wikky2012/Delani-Studio/blob/master/screenshot/Screenshot%20from%202020-07-25%2013-36-58.png width="900px" height="440px">
+<img src=https://github.com/wikky2012/Pizza-Shop/blob/master/screenshots/Screenshot%20from%202020-08-02%2008-15-50.png width="900px" height="440px">
 
 ## Live Page 
 https://wikky2012.github.io/Pizza-Shop/
@@ -41,7 +41,7 @@ https://wikky2012.github.io/Pizza-Shop/
 | Click on Login  |   |     |
 | Enter your credentials  |e.g wicliferono@gmail.com ,Wycliffe, ********, Male|   |
 | Click Submit   |      |   Alert Welcoming you then taken to Order page |
-|:-------------- |:---------:|-----------|
+|        ORDERING PAGE     |
 | Select Items | Pizza size,Type of Crust,Toppings and Delivery     | |
 |Click Submit |     | Total amount you spend|
 
