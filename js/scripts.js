@@ -4,9 +4,10 @@ $(document).ready(function(){
         var inputEmail = $("input#email").val();
         var inputName = $("input#name").val();
         var inputPassword = $("input#password").val();
+        var proceed = "Proceed to make an order!!"
 
         if($("input#email").val() && $("input#name").val() && $("input#password").val()){
-             alert("Welcome "+ inputName);
+             alert("Welcome "+ inputName +"," +proceed);
 
            $("#output").text("Welcome" + inputName);
            
