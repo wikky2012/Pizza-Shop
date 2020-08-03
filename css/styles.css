@@ -80,11 +80,11 @@ li{
     background-color: lavender;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    height: 110vh;
+    height: 130vh;
     
 }
 .services p{
-    padding: 0px 50px 10px 50px;
+    padding: 0px 50px 0px 50px;
     color: black;
     font-weight: lighter;
 }
@@ -114,3 +114,6 @@ span{
 hr { 
     border-color: black; 
 } 
+.col-md-3 li{
+    color: mediumpurple;
+}
