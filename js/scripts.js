@@ -250,8 +250,7 @@ var  result = glutenfree[2] + noTopping + pickYourSelf[0];
 
 $("#output").text("Your total Expense is: Ksh. " + result);
 } 
-else{
-    // alert("Make correct selections!");
-    return results;
+if(inputSize=="size" && typeCrust=="type"  && toppings=="toppings" && delivers=="delivery"){
+alert("You haven't made any selection");
 }
 }
