@@ -61,7 +61,14 @@ li{
 .col-sm img{
     border-radius: 50%;
 }
-.card-footer{
+.footer{
+    bottom: 0;
+    color: #707070;
+    height: 2em;
+    left: 0;
+    position: relative; 
+    font-size: small;
+    width:100%;
     text-align: center;
 }
 .about-us{
@@ -69,7 +76,7 @@ li{
     background-color: lavender;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    height: 120vh;
+    
    
 }
 .about-us p{
@@ -82,7 +89,7 @@ li{
     background-color: lavender;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    height: 130vh;
+   
     
 }
 .services p{
